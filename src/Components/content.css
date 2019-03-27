@@ -1,0 +1,50 @@
+
+#fh5co-hero {
+    min-height: 420px;
+    background: #fff  no-repeat center center;
+  }
+  #fh5co-hero .btn {
+    font-size: 24px;
+  }
+  #fh5co-hero .btn.btn-primary {
+    padding: 14px 30px !important;
+  }
+  #fh5co-hero .flexslider {
+    border: none;
+    z-index: 1;
+    margin-bottom: 0;
+  }
+
+ .inner {
+    max-width: 65em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+    position: relative;
+    z-index: 10000;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 7em;
+   
+}
+
+    @media screen and (max-width: 480px) {
+
+     .inner {
+            max-width: 90%;
+            width: 90%;
+        }
+
+    }
+
+.inner h1 {
+    font-size: 2em;
+    margin: 0 0 1em 0;
+    padding: 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+    #banner h1 span {
+        font-weight: 400;
+    }
+
