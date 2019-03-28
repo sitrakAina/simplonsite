@@ -79,7 +79,7 @@ body {
   }
   .fh5co-nav .menu-2 li.search {
     float: left;
-    width: 83%;
+    width: 53%;
     font-family: "Playfair Display", serif;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -93,7 +93,7 @@ body {
     border: none;
     float: right;
     font-size: 13px;
-    margin-top: 4px;
+    margin-top: 0px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
