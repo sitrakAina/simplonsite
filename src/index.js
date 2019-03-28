@@ -4,6 +4,7 @@ import './index.css';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import Lesson from './Components/Lesson';
+import search from'./search.png';
 import Veille from './Components/Veille';
 import Contact from './Components/Contact';
 import * as serviceWorker from './serviceWorker';
@@ -31,11 +32,10 @@ const routing = (
                                     <div class="input-group">
                                         <input type="text" placeholder="Search.."/>
                                         <span class="input-group-btn">
-                                            <button class="btn btn-primary" type="button"><i class="icon-search"></i></button>
+                                            <button class="btn btn-primary" type="button"><img src={search} alt="recherche"></img></button>
                                         </span>
                                     </div>
                                 </li>
-                                <li class="shopping-cart"><a href="#search" class="cart"><span><i class="icon-shopping-cart"></i></span></a></li>
                             </ul>
                         </div>
                     </div>
