@@ -12,11 +12,11 @@ class Content extends Component {
                     <div class="inner">
                         <h1>Simplon: <span>slogan slogan slogan<br />
                         site simplon madagascar</span></h1>
-                        <button class="btn btn-secondary">Get started</button>
+                        <button class="btn btn-secondary" href="#emploit">Commencer</button>
                     </div>
                 </div>
             </div>
-            <div id="fh5co-services" class="fh5co-bg-section">
+            <div id="fh5co-services emploit" class="fh5co-bg-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 col-sm-3 text-center">
