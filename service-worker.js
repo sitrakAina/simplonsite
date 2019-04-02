@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sitrakAina/simplonsite.git/precache-manifest.6e8261af345b23a96723d40ed58a1ce5.js"
+  "/sitrakAina/simplonsite/precache-manifest.c7d93ef900f377dfd1aaa08e937e800b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sitrakAina/simplonsite.git/index.html", {
+workbox.routing.registerNavigationRoute("/sitrakAina/simplonsite/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
